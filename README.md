@@ -1,6 +1,7 @@
 # program-ideas
 An unordered list of program ideas that pop into my head, Serious and Stupid alike.
-
+  
+  
 - **a diatonic harp tuner**  
 Harpists usually use chromatic tuners but variable string numbers & ranges complicates things for beginners.  
 `Webpage. Asks user if they know the most high & low pitches of their harp. If not: Requests low tone over microphone. Requests high tone over microphone. Generates a zoomable diatonic harp graphic (like the Guinness logo) the low:high-corresponding string range of which can be clicked to sound a MIDI tone`.  
@@ -28,6 +29,14 @@ A webpage that explains how pointers work in C graphically based on a user makin
 Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-1, MD-5 etc and return the output.  
   
 - **Image to ascii** using [Braille](https://unicode.org/charts/nameslist/c_2800.html) `⠿⠽⠶⠭⠀`  or  `█▓▒░ `.  Braille unicode at sufficiently large sizes speculatively resembles offset printing however testing will be required. Export result as a PDF appropriately scaled so that it can be viewed like an image.
+  
+- **math & interesting historical counting system(s)**  
+  Terminal programs, little websites. Focus on historical value. Try to use less familiar langs like Haskell or Julia.
+  - [Cistercian Numerals](https://www.unicode.org/L2/L2020/20290-cistercian-digits.pdf)
+  - [Mangarevan Binary](https://en.wikipedia.org/wiki/Mangareva#Binary_counting_system), [2](https://www.nature.com/articles/nature.2013.14380)
+  - Russian Peasant's algorithm ([DONE in C](https://github.com/CallumBeaney/Russian-Peasants-Algorithm))
+  - Goldbach's Conjecture ([DONE in C](https://github.com/CallumBeaney/Goldbach-Checker))
+
   
 - **Classical Chinese Reader** (GUI)    
 Receives Chinese text and supplements reading with fast access to definitions & grammar glosses by clicking on hanzi or groups thereof.  Traditional dictionary lookup slow. Definitions sometimes don't explain classical grammar and usage clearly (no differentiation between modern usage and old).	There are mouse-mounted dictionaries such as Zhongwen. However, they do not differentiate between dictionaries and are extensions; program wanted. Probable Classical Chinese grammar is highlighted & when clicked user provided with glosses for truncations and modern analogues. Same for Historically-notable and significant references (names, phrases, hanzi with special connotations).  User can click on hanzi to get definitions and pronunciations in different dialects.  
