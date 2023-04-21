@@ -7,11 +7,11 @@ int main() {
     
     
     printf("______ Memory addresses of _____\n");
-    printf("p[0]: `%p` \n", *p); // same as &a[3]
-    printf("p[1]: `%p` \n", (*p + 1)); // same as &a[3]
-    printf("p[2]: `%p` \n", (*p + 2)); // same as &a[3]
+    printf("p[0]: `%p` \n", *p); // same as &a[0]
+    printf("p[1]: `%p` \n", (*p + 1)); // same as &a[1]
+    printf("p[2]: `%p` \n", (*p + 2)); // same as &a[2]
     printf("p[3]: `%p` \n", (*p + 3)); // same as &a[3]
-    printf("p[4]: `%p` \n", (*p + 4)); // same as &a[3]
+    printf("p[4]: `%p` \n", (*p + 4)); // same as &a[4]
 
     printf("\n_____ array 'a' _____\n");
     printf("a:\t  `%p`\n", a);
