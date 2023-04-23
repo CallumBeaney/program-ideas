@@ -46,6 +46,8 @@ Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-
 - **age calculator** e.g. `howold 12/4/1974` -> outputs age  
   
 - **what's the weather like at {POSTCODE || CITY}?**  
+
+- [FUR BUILDER](https://callumbeaney.github.io/pages/singlesurface/singlesurface.html): generate a grid dynamically in a single page. Use chess knight patterns. Pitch to Koji.  
   
 - "**A historical language-related tool**  that I would like to see in the future, if possible, would be something that allows its users to look up more effectively spelling variants of the same words (always making reference to their first written attestantions too), or specific speech sounds, across different manuscripts from similar time ranges and geographic origins. That way, as I see it, it would be easier to see the spread of certain phonological changes, or how spelling standardisation comes about in this or that region or time." -- Effi96  
   
