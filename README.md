@@ -65,7 +65,8 @@ and Postman and research RapidAPI. And use [this](https://paw.cloud).
 - **Have A Word With Yourself** -- webapp that one would send to somebody being a fool on social that opens their front camera, shows them their own face, and puts up a text popup saying "have a word with yourself" (Andrew Maxwell on 810cats S14E8)  
   
 - **LIU BO**  --  ancient chess game. Reconstruct speculatively or wait till [This Research](https://www.zhihu.com/question/47845602) comes back.  
-  
+
+- **RE: PEOPLE** -- "Make this into a Slack plugin which checks your DMs and allows to do the same using Slack UI/commands. Now that would be a banger. Add Google Calendar integration and you have a product"
   
 <br>
   
