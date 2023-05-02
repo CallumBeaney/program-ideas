@@ -36,7 +36,7 @@ Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-
   
 - **Image to ascii** using [Braille](https://unicode.org/charts/nameslist/c_2800.html) `⠿⠽⠶⠭⠀`  or  `█▓▒░ `.  Braille unicode at sufficiently large sizes speculatively resembles offset printing however testing will be required. Export result as a PDF appropriately scaled so that it can be viewed like an image.
   
-- **math & interesting historical counting system(s)**  
+- **math & interesting historical counting system(s)**  [more here](https://osf.io/z9ux5)   
   Terminal programs, little websites. Focus on historical value. Try to use less familiar langs like Haskell or Julia.
   - [Cistercian Numerals](https://www.unicode.org/L2/L2020/20290-cistercian-digits.pdf)
   - [Mangarevan Binary](https://en.wikipedia.org/wiki/Mangareva#Binary_counting_system), [2](https://www.nature.com/articles/nature.2013.14380), [3](https://www.youtube.com/watch?v=hewNo1Qp9rg)  
