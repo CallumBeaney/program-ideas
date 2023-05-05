@@ -59,6 +59,9 @@ Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-
 and Postman and research RapidAPI. And use [this](https://paw.cloud).  
 
 - **"pawns"** which is chess, but only with pawns, and even though this is almost essentially checkers, you deliberately avoid that fact.  
+
+- **this thing**  
+<img src="./1.png" style="width: 400px">
     
 - **GODE CODE** programming language. Python but middle english. Allows for multiple spellings just like the historical lexicography.   
   
