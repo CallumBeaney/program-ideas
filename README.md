@@ -3,11 +3,25 @@ An unordered list of program ideas that pop into my head, Serious and Stupid ali
 If you happen to read this and want to make something before I get to it, go ahead! But please do PR with a link to it; I'd love to see it. Or if you're up to collab and do it together, even better.  
 
 [brief ideas](#brief-ideas)  
-[lomg ideas](#long-ideas)  
+[long ideas](#long-ideas)  
   
 
 ## brief ideas
 
+- **math & interesting historical counting system(s)**  [more here](https://osf.io/z9ux5)   
+  Terminal programs, little websites. Focus on historical value. Try to use less familiar langs like Haskell or Julia.
+  - [Cistercian Numerals](https://www.unicode.org/L2/L2020/20290-cistercian-digits.pdf)
+  - [Mangarevan Binary](https://en.wikipedia.org/wiki/Mangareva#Binary_counting_system), [2](https://www.nature.com/articles/nature.2013.14380), [3](https://www.youtube.com/watch?v=hewNo1Qp9rg)  
+  - Russian Peasant's algorithm ([DONE in C](https://github.com/CallumBeaney/Russian-Peasants-Algorithm))
+  - Goldbach's Conjecture ([DONE in C](https://github.com/CallumBeaney/Goldbach-Checker))  
+<br>
+- **age calculator** e.g. `howold 12/4/1974` -> outputs age because opening google and navigating to some BS calendar-form-input website with cookies message popping up each time is annoying af  
+  
+- **what's the weather like at {POSTCODE || CITY}?**  same reasons as above.  
+
+- [FUR BUILDER](https://callumbeaney.github.io/pages/singlesurface/singlesurface.html): generate a grid dynamically in a single page of [fur](http://kitagawakoji.com/fur.html). Use chess knight patterns. Pitch to Koji.  
+<img src="https://callumbeaney.github.io/pages/singlesurface/img/5.jpg" alt="image" width="300">  
+  
 - **a diatonic harp tuner**  
 Harpists usually use chromatic tuners but variable string numbers & ranges complicates things for beginners.  
 `Webpage. Asks user if they know the most high & low pitches of their harp. If not: Requests low tone over microphone. Requests high tone over microphone. Generates a zoomable diatonic harp graphic (like the Guinness logo) the low:high-corresponding string range of which can be clicked to sound a MIDI tone`.  
@@ -30,25 +44,13 @@ A webpage that explains how pointers work in C graphically based on a user makin
      │     └───────────┐
      p                *p
 ``` 
+  ^^ alternatively, extend this by having a humorously willy-themed website that explains this exact concept with graphic NSFW art called `*p is stored in the balls`.  
   
 - **encrypter**  
 Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-1, MD-5 etc and return the output.  
   
 - **Image to ascii** using [Braille](https://unicode.org/charts/nameslist/c_2800.html) `⠿⠽⠶⠭⠀`  or  `█▓▒░ `.  Braille unicode at sufficiently large sizes speculatively resembles offset printing however testing will be required. Export result as a PDF appropriately scaled so that it can be viewed like an image.
   
-- **math & interesting historical counting system(s)**  [more here](https://osf.io/z9ux5)   
-  Terminal programs, little websites. Focus on historical value. Try to use less familiar langs like Haskell or Julia.
-  - [Cistercian Numerals](https://www.unicode.org/L2/L2020/20290-cistercian-digits.pdf)
-  - [Mangarevan Binary](https://en.wikipedia.org/wiki/Mangareva#Binary_counting_system), [2](https://www.nature.com/articles/nature.2013.14380), [3](https://www.youtube.com/watch?v=hewNo1Qp9rg)  
-  - Russian Peasant's algorithm ([DONE in C](https://github.com/CallumBeaney/Russian-Peasants-Algorithm))
-  - Goldbach's Conjecture ([DONE in C](https://github.com/CallumBeaney/Goldbach-Checker))
-  
-- **age calculator** e.g. `howold 12/4/1974` -> outputs age  
-  
-- **what's the weather like at {POSTCODE || CITY}?**  
-
-- [FUR BUILDER](https://callumbeaney.github.io/pages/singlesurface/singlesurface.html): generate a grid dynamically in a single page of [fur](http://kitagawakoji.com/fur.html). Use chess knight patterns. Pitch to Koji.  
-<img src="https://callumbeaney.github.io/pages/singlesurface/img/5.jpg" alt="image" width="300">
 
   
 - "**A historical language-related tool**  that I would like to see in the future, if possible, would be something that allows its users to look up more effectively spelling variants of the same words (always making reference to their first written attestantions too), or specific speech sounds, across different manuscripts from similar time ranges and geographic origins. That way, as I see it, it would be easier to see the spread of certain phonological changes, or how spelling standardisation comes about in this or that region or time." -- Effi96  
@@ -60,8 +62,8 @@ and Postman and research RapidAPI. And use [this](https://paw.cloud).
 
 - **"pawns"** which is chess, but only with pawns, and even though this is almost essentially checkers, you deliberately avoid that fact.  
 
-- **this thing**  
-<img src="./1.png" style="width: 400px">
+- **this thing**  ( see: [this](http://pixelastic.github.io/pokemonorbigdata/) )  
+<img src="./1.png" style="width: 480px">
     
 - **GODE CODE** programming language. Python but middle english. Allows for multiple spellings just like the historical lexicography.   
   
@@ -70,7 +72,8 @@ and Postman and research RapidAPI. And use [this](https://paw.cloud).
 - **LIU BO**  --  ancient chess game. Reconstruct speculatively or wait till [This Research](https://www.zhihu.com/question/47845602) comes back.  
 
 - **RE: PEOPLE** -- "Make this into a Slack plugin which checks your DMs and allows to do the same using Slack UI/commands. Now that would be a banger. Add Google Calendar integration and you have a product"
-  
+
+- **PICO motion activated speaker** that makes someone jump by playing a soundbite e.g. [this](https://www.youtube.com/watch?v=siLkbdVxntU) when someone trips it walking into a room etc etc. good motion sensor [here](https://www.tomshardware.com/how-to/raspberry-pi-pico-motion-sensor). Will need speaker & a Extend with battery supply.  
 <br>
   
   
