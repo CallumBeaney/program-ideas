@@ -15,10 +15,11 @@ If you happen to read this and want to make something before I get to it, go ahe
   - Russian Peasant's algorithm ([DONE in C](https://github.com/CallumBeaney/Russian-Peasants-Algorithm))
   - Goldbach's Conjecture ([DONE in C](https://github.com/CallumBeaney/Goldbach-Checker))  
 <br>
-- **age calculator** e.g. `howold 12/4/1974` -> outputs age because opening google and navigating to some BS calendar-form-input website with cookies message popping up each time is annoying af  
   
-- **what's the weather like at {POSTCODE || CITY}?**  same reasons as above.  
-
+- **age calculator** CLI Tool e.g. `howold 12/4/1974` -> outputs age  --  because opening google and navigating to some BS calendar-form-input website with cookies message popping up each time is annoying af  
+  
+- **what's the weather like at {POSTCODE || CITY}?**  -- same reasons as above. Might be nice project for people in an LDR with an LCD for a PICO with a battery and a wifi connection that shows both peoples' location info so they know what the climate's like where their partner is. Maybe make it easy for people to copy and build their own for their own portfolios so they can boost their chances.     
+  
 - [FUR BUILDER](https://callumbeaney.github.io/pages/singlesurface/singlesurface.html): generate a grid dynamically in a single page of [fur](http://kitagawakoji.com/fur.html). Use chess knight patterns. Pitch to Koji.  
 <img src="https://callumbeaney.github.io/pages/singlesurface/img/5.jpg" alt="image" width="300">  
   
@@ -50,9 +51,7 @@ A webpage that explains how pointers work in C graphically based on a user makin
 Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-1, MD-5 etc and return the output.  
   
 - **Image to ascii** using [Braille](https://unicode.org/charts/nameslist/c_2800.html) `⠿⠽⠶⠭⠀`  or  `█▓▒░ `.  Braille unicode at sufficiently large sizes speculatively resembles offset printing however testing will be required. Export result as a PDF appropriately scaled so that it can be viewed like an image.
-  
-
-  
+    
 - "**A historical language-related tool**  that I would like to see in the future, if possible, would be something that allows its users to look up more effectively spelling variants of the same words (always making reference to their first written attestantions too), or specific speech sounds, across different manuscripts from similar time ranges and geographic origins. That way, as I see it, it would be easier to see the spread of certain phonological changes, or how spelling standardisation comes about in this or that region or time." -- Effi96  
   
 - **bonfire** A terminal art program that generates a smoking bonfire like in Dark Souls. API fetches quotes from the game and slowly cycles through them. For functionality’s sake, this could be used as a kind of program or system snapshot that can be referenced (rather than strictly returned to).
@@ -66,10 +65,12 @@ and Postman and research RapidAPI. And use [this](https://paw.cloud).
 <img src="./1.png" style="width: 480px">
     
 - **GODE CODE** programming language. Python but middle english. Allows for multiple spellings just like the historical lexicography.   
+
+- **府県 発音 guesser** building on [this](https://www.sporcle.com/games/JDGM/japan-prefecture-kanjihiragana-reading-clickable) project by Jim Miles with the extension I suggested in DMs: "split the screen up into X number of segments based on the number of kanji each place name has, and then lob the full set of on/kunyomi for each kanji's respective sections"  
   
 - **Have A Word With Yourself** -- webapp that one would send to somebody being a fool on social that opens their front camera, shows them their own face, and puts up a text popup saying "have a word with yourself" (Andrew Maxwell on 810cats S14E8)  
   
-- **LIU BO**  --  ancient chess game. Reconstruct speculatively or wait till [This Research](https://www.zhihu.com/question/47845602) comes back.  
+- **LIU BO  六博**  --  ancient chess game. Reconstruct speculatively or wait till [This Research](https://www.zhihu.com/question/47845602) comes back.  
 
 - **RE: PEOPLE** -- "Make this into a Slack plugin which checks your DMs and allows to do the same using Slack UI/commands. Now that would be a banger. Add Google Calendar integration and you have a product"
 
