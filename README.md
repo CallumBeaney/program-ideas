@@ -9,8 +9,25 @@ If you happen to read this and want to make something before I get to it, go ahe
 
 ## brief ideas
 
-- **Targeted news searcher** - e.g. I want to know about some in-progress 六博-related research I'm interested in once it has been published, but I don't want to keep checking for it and parsing Mandarin with my dumb brain, so I need to do a cronjob once a day checking for specific keywords on core news sites or university bulletin boards and receiving an email or notification if anything comes up. Hard mode: make it work even without proxy on.
+- **Gode Boke Fynder** -- There are many medieval books. What if I've spent ages studying e.g. a book written in Cheshire, ~1100 A.D. I want to read more books in this dialect/time period? -- GUI showing UK map outline. Slider below. Move the slider, advance the year being shown by ~50 years. Display manuscripts and books written in this time period in the map with little clickable markers.  
 
+- **Middle English Reader (serious)**
+    * Gawain and Green Knight book. Great poetry. Hard to read! Many old words! What do?
+    * Put the text in an app view. When hover over word, popup word and if click? TTS read out the word!
+    * Also TTS read the whole story with settings ( see: [project MELT](https://vtechworks.lib.vt.edu/handle/10919/22059) )
+    * could form the basis for making a large number of medieval English stories readable in their original form without the constant dictionary lookup problem or literary value-killing modernisations (even Tolkein modernisation insufficient)
+    * There are problems with [orthographic regularity](https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED24418/track?counter=1&search_id=27705254)
+    * There's an old english reader written in Swift [here](https://github.com/ryanlintott/OEVoice?fbclid=IwAR30SEB_dZxGobljGtt-fjcW9k73eneX6k3qcEG4fz6YrGM1uJ9iJdugCc8)
+  
+- **CLI menu framework** -- see how firebase has a scrolling options menu with a SPACE-to-select and ENTER-to-submit functionality? If not already done elsewhere, rebuild the skeleton and let users define their own options and submenus.  
+
+- **page set saver** Imagine you need to work through a set of Github Issues. You won't have internet access. You don't just want to save one HTML page; you want to save an HTML page for /each link/ and save them all to a directory so you can go through them when you have no internet access. so, a program that saves the page you select, and also every linked page on that page, into a directory accessible by a root .html file.
+
+- **bonfire** [A state snapshotting/system backup tool for a specific program](https://github.com/goodpals/bonfire), where the data location for that program is saved and can be restored if something breaks. Add a cute terminal art of a smoking bonfire like in Dark Souls.  
+
+- **spoken extension to [symbolic notation converter](https://github.com/CallumBeaney/Symbolic-Notation-Converter)** -- Spoken english math to symbolic form. On device recognition not always 很好 so will need an external service like deepgram, so it will have to be either a premium service or make people supply their own api keys. Can fallback on ondevicerecognition. Aim at e.g. math teachers; need a way to not have painful install process.  
+
+- **Targeted news searcher** - e.g. I want to know about some in-progress 六博-related research I'm interested in once it has been published, but I don't want to keep checking for it and parsing Mandarin with my dumb brain, so I need to do a cronjob once a day checking for specific keywords on core news sites or university bulletin boards and receiving an email or notification if anything comes up. Hard mode: make it work even without proxy on.
 
 - **this thing**  ( see: [this](http://pixelastic.github.io/pokemonorbigdata/) )  
 <img src="./1.png" style="width: 480px">
@@ -23,6 +40,8 @@ If you happen to read this and want to make something before I get to it, go ahe
   Terminal programs, little websites. Focus on historical value. Try to use less familiar langs like Haskell or Julia.
   - [Cistercian Numerals](https://www.unicode.org/L2/L2020/20290-cistercian-digits.pdf)
   - [Mangarevan Binary](https://en.wikipedia.org/wiki/Mangareva#Binary_counting_system), [2](https://www.nature.com/articles/nature.2013.14380), [3](https://www.youtube.com/watch?v=hewNo1Qp9rg)  
+
+- **business card scanner** -- and adds it to a database for later handling. Only advantage to to making this now might be it'd be FOSS where others are paid-for.
 
 <br>
 
@@ -62,8 +81,6 @@ Give a textInput some text & select a hashing algorithm from a dropdown e.g SHA-
     
 - "**A historical language-related tool**  that I would like to see in the future, if possible, would be something that allows its users to look up more effectively spelling variants of the same words (always making reference to their first written attestantions too), or specific speech sounds, across different manuscripts from similar time ranges and geographic origins. That way, as I see it, it would be easier to see the spread of certain phonological changes, or how spelling standardisation comes about in this or that region or time." -- Effi96  
   
-- **bonfire** A terminal art program that generates a smoking bonfire like in Dark Souls. API fetches quotes from the game and slowly cycles through them. For functionality’s sake, this could be used as a kind of state snapshotting tool for a selected program that can be returned to
-
 - **Night Sky** -- a terminal/GUI that basically maps the night sky's stars where the user is, and lets them explore it in glorious ASCII form. More art/cute than anything useful.  Check [this](https://astronomyapi.com) and [this](https://docs.astronomyapi.com/endpoints/bodies)
 and Postman and research RapidAPI. And use [this](https://paw.cloud).  
 
@@ -108,7 +125,7 @@ English-speaking people learning either Japanese or Japanese & Chinese will bene
 <br>
   
 ## done ideas
-
+  
   - Russian Peasant's algorithm ([DONE in C](https://github.com/CallumBeaney/Russian-Peasants-Algorithm))
   - Goldbach's Conjecture ([DONE in C](https://github.com/CallumBeaney/Goldbach-Checker))  
   - **age calculator** CLI Tool e.g. `howold 12/4/1974` -> outputs age. ([DONE in C and Dart](https://github.com/CallumBeaney/scripts/tree/master/ageCalculator))
